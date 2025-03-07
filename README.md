@@ -64,56 +64,8 @@ Currently supports:
 
 ## 💻 Installation
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/VeerChaurasia/ChillQuest.git
-cd ChillQuest
-```
 
-### 2. Install Dependencies
-```bash
-# Root project dependencies
-npm install
-
-# Frontend dependencies
-cd frontend
-npm install
-
-# Contracts dependencies
-cd ../contracts/Game
-forge install
-```
-
-## 🏗️ Smart Contract Development
-
-### Forge Commands
-```bash
-# Install dependencies
-forge install
-
-# Compile contracts
-forge build
-
-# Run tests
-forge test
-
-# Deploy contracts
-forge script script/Deploy.s.sol:DeployScript --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
-```
-
-### Hardhat Commands (Currently Unavalible)
-```bash
-# Compile contracts
-npx hardhat compile
-
-# Run tests
-npx hardhat test
-
-# Deploy contracts
-npx hardhat run scripts/deploy.js --network <network-name>
-```
-
-## 🖥️ Frontend Development
+## 🖥️ Play Now !
 ```bash
 npm i 
 npm run dev
@@ -130,9 +82,6 @@ npm run dev
 ## 📄 License
 
 Distributed under MIT License. See `LICENSE` for details.
-
-## 📬 Made At
-@EthIndiaCo
 
 ## 🙏 Acknowledgements
 
